@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sathguru Babaji Traders - Leading construction company in Coimbatore, specializing in road construction, layout development, and building materials">
+    <title>Sathguru Babaji Traders - Quality Construction Services</title>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="#home">
+                            <img src="images/LOGO/logo.jpeg" alt="Sathguru Babaji Traders" class="logo-img">
+                        </a>
+                    </div>
+                    <ul class="nav-menu" id="navMenu">
+<li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About Us</a></li>
+                        <li><a href="#services" class="nav-link">Our Services</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+<li><a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main id="main-content">
+        <!-- Home Page -->
+        <div class="page active" id="page-home" data-page="home">
+            <!-- Hero Section / Carousel -->
+            <section class="hero" id="home">
+                <div class="carousel-container">
+                    <div class="carousel-slide active" style="background-image: url('images/HOME PAGE/building trust.jpg');">
+                        <div class="slide-content">
+                            <h1>Road and Building Construction</h1>
+                            <p>Excellence in Road & Building Construction</p>
+                            <a href="#services" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('images/HOME PAGE/Layout.jpg');">
+                        <div class="slide-content">
+                            <h1>Layout Development</h1>
+                            <p>Layout Developer</p>
+                            <a href="#services" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>                  
+                    <div class="carousel-slide" style="background-image: url('images/HOME PAGE/PremiumMaterials.jpg');">
+                        <div class="slide-content">
+                            <h1>Premium Materials Supply</h1>
+                            <p>Top-Quality Materials, Direct from Authorized Suppliers!</p>
+                            <a href="#services" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="carousel-slide" style="background-image: url('images/HOME PAGE/road construction.jpg');">
+                        <div class="slide-content">
+                            <h1>Construction Materials Rental</h1>
+                            <p>Certified Road Contractor – Government & Private Works</p>
+                            <a href="#services" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+					 <div class="carousel-slide" style="background-image: url('images/HOME PAGE/drainage_.jpg');">
+                        <div class="slide-content">
+                            <h1>Drainage</h1>
+                            <p>Quality Works & Healthy Lifestyle</p>
+                            <a href="#services" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active" data-slide="0"></span>
+                    <span class="indicator" data-slide="1"></span>
+                    <span class="indicator" data-slide="2"></span>
+                    <span class="indicator" data-slide="3"></span>
+                    <span class="indicator" data-slide="4"></span>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features">
+                <div class="container">
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <h3>Quality Materials</h3>
+                            <p>Choose the best construction materials to ensure your project stands the test of time. Contact us today for expert..</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Experienced Team</h3>
+                            <p>Partner with a construction team that values quality, precision, and customer satisfaction with Team..</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <h3>Unique Technologies</h3>
+                            <p>Leverage the latest construction technologies to create high-performance, future-ready structures..</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics & Charts Section -->
+            <section class="stats-charts">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Our Performance Metrics</h2>
+                        <h3>Data-Driven Excellence in Construction</h3>
+                    </div>
+                    <div class="metrics-card">
+                        <div class="metrics-chart-section">
+                            <div class="chart-container">
+                                <canvas id="combinedChart"></canvas>
+                            </div>
+                        </div>
+                        <div class="metrics-image-section">
+                            <div class="metrics-image-grid">
+                                <div class="metrics-image-item">
+                                    <img src="images/our services/ROAD CONSTRUCTION/BITUMEN wrok11.jpg" alt="Road Construction">
+                                    <div class="image-overlay">
+                                        <h4>Road Construction</h4>
+                                    </div>
+                                </div>
+                                <div class="metrics-image-item">
+                                    <img src="images/our services/Cement/rep cement.JPG" alt="Cement">
+                                    <div class="image-overlay">
+                                        <h4>Material</h4>
+                                    </div>
+                                </div>
+                                <div class="metrics-image-item">
+                                    <img src="images/COMPLETED PROJECTS/Drainage/11.1 SHUTTERING REMOVAL.jpeg" alt="Drainage">
+                                    <div class="image-overlay">
+                                        <h4>Drainage</h4>
+                                    </div>
+                                </div>
+                                <div class="metrics-image-item">
+                                    <img src="images/our services/FOR HIRE/jcb (2).jpg" alt="Vehicle">
+                                    <div class="image-overlay">
+                                        <h4>Vehicle</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tabbed Data Section -->
+            <section class="tabbed-data-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Company Insights</h2>
+                        <h3>Explore Our Achievements & Capabilities</h3>
+                    </div>
+                    <div class="data-tabs">
+                        <button class="data-tab-btn active" data-tab="projects">Projects Overview</button>
+                        <button class="data-tab-btn" data-tab="services">Services Data</button>
+                        <button class="data-tab-btn" data-tab="achievements">Achievements</button>
+                        <button class="data-tab-btn" data-tab="materials">Materials Supply</button>
+                    </div>
+                    <div class="data-tab-content active" id="projects-tab">
+                        <div class="data-grid">
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-road"></i></div>
+                                <h4>Road Projects</h4>
+                                <p class="data-number">150+</p>
+                                <p class="data-desc">Completed road construction projects across multiple districts</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-building"></i></div>
+                                <h4>Building Projects</h4>
+                                <p class="data-number">85+</p>
+                                <p class="data-desc">Residential and commercial building constructions</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-map-marked-alt"></i></div>
+                                <h4>Layout Development</h4>
+                                <p class="data-number">45+</p>
+                                <p class="data-desc">Private layout development projects completed</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-tools"></i></div>
+                                <h4>Ongoing Projects</h4>
+                                <p class="data-number">12+</p>
+                                <p class="data-desc">Active projects currently in progress</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-tab-content" id="services-tab">
+                        <div class="data-grid">
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-truck"></i></div>
+                                <h4>Vehicles Available</h4>
+                                <p class="data-number">25+</p>
+                                <p class="data-desc">Construction vehicles available for hire</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-cube"></i></div>
+                                <h4>Material Types</h4>
+                                <p class="data-number">15+</p>
+                                <p class="data-desc">Different types of construction materials supplied</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-users-cog"></i></div>
+                                <h4>Expert Team</h4>
+                                <p class="data-number">50+</p>
+                                <p class="data-desc">Skilled professionals and workers</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-handshake"></i></div>
+                                <h4>Client Satisfaction</h4>
+                                <p class="data-number">98%</p>
+                                <p class="data-desc">Customer satisfaction rate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-tab-content" id="achievements-tab">
+                        <div class="data-grid">
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-award"></i></div>
+                                <h4>Years of Excellence</h4>
+                                <p class="data-number">20+</p>
+                                <p class="data-desc">Years of trusted service in construction industry</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-certificate"></i></div>
+                                <h4>Government Contracts</h4>
+                                <p class="data-number">100+</p>
+                                <p class="data-desc">Successfully completed government projects</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-star"></i></div>
+                                <h4>Quality Rating</h4>
+                                <p class="data-number">4.8/5</p>
+                                <p class="data-desc">Average quality rating from clients</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-map-pin"></i></div>
+                                <h4>Service Districts</h4>
+                                <p class="data-number">4</p>
+                                <p class="data-desc">Districts served: Coimbatore, Nilgiris, Erode, Tirupur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="data-tab-content" id="materials-tab">
+                        <div class="data-grid">
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-cubes"></i></div>
+                                <h4>Cement Supply</h4>
+                                <p class="data-number">5000+</p>
+                                <p class="data-desc">Tons of cement supplied monthly</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-th"></i></div>
+                                <h4>Building Blocks</h4>
+                                <p class="data-number">10000+</p>
+                                <p class="data-desc">Blocks supplied per month</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fas fa-mountain"></i></div>
+                                <h4>Metal & Sand</h4>
+                                <p class="data-number">2000+</p>
+                                <p class="data-desc">Tons of metal and sand supplied</p>
+                            </div>
+                            <div class="data-item">
+                                <div class="data-icon"><i class="fa-solid fa-bottle-water"></i></div>
+                                <h4>Pipes & Fittings</h4>
+                                <p class="data-number">500+</p>
+                                <p class="data-desc">Various pipes and fittings available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Image Showcase Section -->
+            <section class="image-showcase">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Recent Work Showcase</h2>
+                        <h3>Visualizing Our Construction Excellence</h3>
+                    </div>
+                    <div class="showcase-grid">
+                        <div class="showcase-item">
+                            <img src="images/HOME PAGE/road construction.jpg" alt="Road Construction" >
+                            <div class="showcase-overlay">
+                                <h4>Road Construction</h4>
+                                <p>Premium quality road works</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/COMPLETED PROJECTS/lAYOUT/LAYOUT.jpg" alt="Layout Development">
+                            <div class="showcase-overlay">
+                                <h4>Layout Development</h4>
+                                <p>Expert layout planning</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/HOME PAGE/drainage_.jpg" alt="Drainage System">
+                            <div class="showcase-overlay">
+                                <h4>Drainage Systems</h4>
+                                <p>Efficient water management</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/HOME PAGE/rep Road Marking.jpeg" alt="Road Work">
+                            <div class="showcase-overlay">
+                                <h4>Road Marking</h4>
+                                <p>Professional road marking</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/HOME PAGE/Vehicles.jpg" alt="Construction Vehicles">
+                            <div class="showcase-overlay">
+                                <h4>Vehicle Fleet</h4>
+                                <p>Modern construction equipment</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/HOME PAGE/Rep Premium Materials.JPG" alt="Premium Materials">
+                            <div class="showcase-overlay">
+                                <h4>Premium Materials</h4>
+                                <p>Premium Materials Supplier</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project Highlights Section -->
+            <section class="project-highlights">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Project Highlights</h2>
+                        <h3>Notable Projects & Milestones</h3>
+                    </div>
+                    <div class="highlights-grid">
+                        <div class="highlight-card">
+                            <div class="highlight-image">
+                                <img src="images/COMPLETED PROJECTS/SANCTUARY VILLAS/san9.jpeg" alt="Sanctuary Villas">
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Sanctuary Villas</h4>
+                                <p><strong>Location:</strong> Kaalapatti</p>
+                                <p><strong>Type:</strong> Vila Construction</p>
+                                <p><strong>Status:</strong> Completed</p>
+                                <p><strong>Duration:</strong> 6 months</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-image">
+                                <img src="images/COMPLETED PROJECTS/VISHAKA VILLAS/Visakavilal.jpeg" alt="Vishaka Villas">
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Vishaka Villas</h4>
+                                <p><strong>Location:</strong> Coimbatore</p>
+                                <p><strong>Type:</strong> Residential Construction</p>
+                                <p><strong>Status:</strong> Completed</p>
+                                <p><strong>Units:</strong> 25+ Villas</p>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-image">
+                                <img src="images/COMPLETED PROJECTS/compound wall/FINAL.jpeg" alt="Compound Wall">
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Compound Wall Project</h4>
+                                <p><strong>Type:</strong> Infrastructure</p>
+                                <p><strong>Status:</strong> Completed</p>
+                                <p><strong>Length:</strong> 2.5 KM</p>
+                                <p><strong>Quality:</strong> Premium Grade</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page -->
+        <div class="page" id="page-about">
+            <!-- About Section -->
+            <section class="about" id="about">
+                <div class="about-cover" style="background-image: url('images/ABOUT US cover pic/TOP IMAGE.jpg');">
+                    <div class="container">
+                        <div class="section-header">
+                            <h2>About Company</h2>
+                            <h3>Your Trusted Partner in Quality Construction</h3>
+                            <div class="rating">
+                                <span class="stars">4.8</span>
+                                <p>Real Stories, Real Satisfaction: Hear from Our Customers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="about-content-wrapper">
+                        <div class="about-main-content">
+                            <div class="about-text-section">
+                                <h3 class="about-section-title">Our Vision & Mission</h3>
+                                <div class="about-tabs">
+                                    <button class="tab-btn active" data-tab="vision">Our Vision</button>
+                                    <button class="tab-btn" data-tab="mission">Our Mission</button>
+                                </div>
+                                <div class="tab-content active" id="vision">
+                                    <p>Our vision is to bring our customers' dreams to life by providing tailored services and cost-effective materials, supported by in-house vehicles and machinery. We are committed to continuous improvement, always listening to our clients to deliver better solutions every day, and ultimately becoming the number one choice in the minds of our customers and partners.</p>
+                                </div>
+                                <div class="tab-content" id="mission">
+                                    <p>Our mission is to provide top-quality construction, technical, and management services, building long-term relationships with clients based on safety, quality, and timely delivery. We prioritize fair treatment of employees and continuous improvement to ensure cost-effective, responsive service.</p>
+                                </div>
+                                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                            </div>
+                            <div class="about-description-section">
+                                <h3 class="about-section-title">Who We Are</h3>
+                                <div class="about-description">
+                                    <p>Established two decades ago, <strong>Gurubabaji Group of Companies</strong> is one of the leading government road contractors, private layout developers, and building material suppliers in and around <strong>Coimbatore, The Nilgiris, Erode,</strong> and <strong>Tirupur</strong> districts.
+                                    We have completed numerous BT works for <strong>Highways, DRDA, Municipalities, Town Panchayats, Village Panchayats,</strong> and private layouts.
+                                    We are also one of the leading suppliers of <strong>cement, building blocks, metal, sand, pipes,</strong> and other essential construction materials.
+                                    Furthermore, we specialize in subcontracting and managing government tenders for <strong>buildings, roads, villas,</strong> and <strong>commercial establishments</strong>.
+                                    With a proven track record in <strong>healthcare</strong> and <strong>commercial projects</strong> across <strong>South Tamil Nadu</strong>, the company is renowned for excellence.
+                                    Our recent expansion into <strong>Sathguru Babaji Earth Movers</strong> has further enhanced our offerings with <strong>value-added services</strong> at affordable prices for our customers and partners.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-users"></i></div>
+                                <h3>250+</h3>
+                                <p>Total Customers</p>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-map-marked-alt"></i></div>
+                                <h3>4+</h3>
+                                <p>Serving Districts</p>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                                <h3>20+</h3>
+                                <p>Years of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Us Section -->
+            <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us</h2>
+                <h3>Building Trust, One Project at a Time Proven Results, Happy Clients</h3>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-award"></i>
+                    <h4>Premium Materials</h4>
+                    <p>Premium materials & top-tier construction standards.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user-tie"></i>
+                    <h4>Expert Team</h4>
+                    <p>Industry-leading architects, engineers, and builders.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Modern Technology</h4>
+                    <p>AI, BIM, and sustainable innovations for precision & efficiency.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-handshake"></i>
+                    <h4>Collaborative Approach</h4>
+                    <p>We bring the right people together challenge establish thinking.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Timely Delivery</h4>
+                    <p>Streamlined project management for timely completion.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-smile"></i>
+                    <h4>Customer Satisfaction</h4>
+                    <p>Clear communication & 100% customer satisfaction.</p>
+                </div>
+            </div>
+            <div class="experience-badge">
+                <h3>20+</h3>
+                <p>Years Experience</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Services Page -->
+        <div class="page" id="page-services">
+            <!-- Services Section -->
+            <section class="services" id="services">
+            <div class="services-cover" style="background-image: url('images/HOME PAGE/PremiumMaterials.jpg');">
+                <div class="slide-content">
+                    <h1>Our Services</h1>
+                    <p>Your Trusted Partner in Building Dreams, Creating Futures</p>
+                </div>
+            </div>
+        <div class="container">
+            <div class="section-header" style="display: none;">
+                <h2>Our Services</h2>
+                <h3>Your Trusted Partner in Building Dreams, Creating Futures</h3>
+            </div>
+                  <div class="services-list" id="servicesList"></div>
+
+                <div class="services-tabs">
+                    <div class="services-tab-content" id="layout-tab">
+                        <div class="services-grid">
+                        </div>
+                    </div>
+					 <div class="services-tab-content" id="cement-tab">
+                        <div class="services-grid">
+                        </div>
+                    </div>
+                    <div class="services-tab-content" id="tmt-tab">
+                        <div class="services-grid">
+                        </div>
+                    </div>
+                <div class="services-tab-content" id="materialsfact-tab">
+                        <div class="services-grid">
+                        </div>
+                    </div>
+                    <div class="services-tab-content" id="building-tab">
+                        <div class="services-grid">
+                        </div>
+                    </div>
+                </div>
+ <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const tabBtns = document.querySelectorAll('.data-tab-btn');
+    const tabContents = document.querySelectorAll('.services-tab-content');
+
+    // Set default tab
+    tabBtns[0].classList.add('active');
+    tabContents[0].classList.add('active');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // Remove active from all
+            tabBtns.forEach(b => b.classList.remove('active'));
+            tabContents.forEach(tc => tc.classList.remove('active'));
+
+            // Activate selected tab
+            btn.classList.add('active');
+            const content = document.getElementById(btn.dataset.tab);
+            if (content) content.classList.add('active');
+        });
+    });
+});
+<div class="services-list" id="servicesList"></div>
+
+</script>
+
+        </div>
+            </section>
+        </div>
+
+        <!-- Projects Page -->
+        <div class="page" id="page-projects">
+            <!-- Projects Section -->
+            <section class="projects-section" id="projects">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Our Completed Projects</h2>
+                        <h3>Explore our portfolio of successful construction projects. Click on any project to view detailed images.</h3>
+                    </div>
+                    
+                    <!-- Tabbed Projects Display (Similar to Company Insights) -->
+                    <div class="tabbed-data-section">
+                        <div class="data-tabs">
+                            <button class="data-tab-btn active" data-tab="all">All Projects</button>
+                            <button class="data-tab-btn" data-tab="road-projects">Road Projects</button>
+                            <button class="data-tab-btn" data-tab="building-projects">Building Projects</button>
+                            <button class="data-tab-btn" data-tab="infrastructure-projects">Layout</button>
+                        </div>
+                        
+                        <!-- All Projects Tab -->
+                        <div class="data-tab-content active" id="all-tab">
+                            <div class="data-grid" id="allProjectsGrid">
+                                <!-- Projects will be dynamically loaded here -->
+                            </div>
+                        </div>
+                        
+                        <!-- Road Projects Tab -->
+                        <div class="data-tab-content" id="road-projects-tab">
+                            <div class="data-grid" id="roadProjectsGrid">
+                                <!-- Road projects will be dynamically loaded here -->
+                            </div>
+                        </div>
+                        
+                        <!-- Building Projects Tab -->
+                        <div class="data-tab-content" id="building-projects-tab">
+                            <div class="data-grid" id="buildingProjectsGrid">
+                                <!-- Building projects will be dynamically loaded here -->
+                            </div>
+                        </div>
+                        
+                        <!-- Infrastructure Projects Tab -->
+                        <div class="data-tab-content" id="infrastructure-projects-tab">
+                            <div class="data-grid" id="infrastructureProjectsGrid">
+                                <!-- Infrastructure projects will be dynamically loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Gallery Modal (Slides in from right) -->
+                    <div class="gallery-modal-backdrop" id="galleryModalBackdrop"></div>
+                    <div class="project-gallery-modal" id="projectGalleryModal">
+                        <div class="gallery-modal-content">
+                            <button class="gallery-modal-close" id="galleryModalClose">
+                                <i class="fas fa-times"></i>
+                            </button>
+                            <div class="gallery-modal-header">
+                                <h4 id="galleryModalTitle">Project Images</h4>
+                            </div>
+                            <div class="gallery-modal-body" id="galleryModalBody">
+                                <div class="gallery-placeholder">
+                                    <i class="fas fa-images"></i>
+                                    <p>Loading project images...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- People Page -->
+        <div class="page" id="page-people">
+            <!-- Team Section -->
+            <section class="team" id="people">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+                <h3>Expert Team Members</h3>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>Gurubabaji Subramanian R</h4>
+                    <p class="member-role">Design Head</p>
+                    <a href="tel:+919080402204" class="member-contact"><i class="fas fa-phone"></i> +91 90804 02204</a>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>GSR</h4>
+                    <p class="member-role">Creative Director</p>
+                    <a href="tel:+919965555652" class="member-contact"><i class="fas fa-phone"></i> +919965555652</a>
+                </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Gallery Page -->
+        <div class="page" id="page-gallery">
+            <!-- Gallery Section -->
+            <section class="gallery" id="gallery">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Gallery</h2>
+                        <h3>Our Completed & Ongoing Projects</h3>
+                    </div>
+                    <div class="gallery-tabs">
+                        <button class="gallery-tab-btn active" data-gallery="completed">Completed Projects</button>
+                        <button class="gallery-tab-btn" data-gallery="ongoing">Ongoing Projects</button>
+                    </div>
+                    <div class="gallery-content">
+                        <div class="gallery-grid active" id="completed-gallery">
+                            <div class="gallery-item">
+                                <img src="images/COMPLETED PROJECTS/POONJOLAI GARDEN - MK GROUP OF COMPANIES KAALAPATTI/14.FINAL OUTCOME.jpg" alt="Poonjolai Garden Project">
+                                <div class="gallery-overlay">
+                                    <h4>Poonjolai Garden</h4>
+                                    <p>Road Construction Project</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/COMPLETED PROJECTS/VISHAKA VILLAS/11.2 FINAL OUTCOME.jpg" alt="Vishaka Villas Project">
+                                <div class="gallery-overlay">
+                                    <h4>Vishaka Villas</h4>
+                                    <p>Residential Project</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/COMPLETED PROJECTS/compound wall/FINAL.jpeg" alt="Compound Wall Project">
+                                <div class="gallery-overlay">
+                                    <h4>Compound Wall</h4>
+                                    <p>Construction Project</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/COMPLETED PROJECTS/Drainage/13.DRAINAGE FINAL.jpeg" alt="Drainage Project">
+                                <div class="gallery-overlay">
+                                    <h4>Drainage System</h4>
+                                    <p>Infrastructure Project</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/COMPLETED PROJECTS/ROAD MARKING/1.jpeg" alt="Road Marking Project">
+                                <div class="gallery-overlay">
+                                    <h4>Road Marking</h4>
+                                    <p>Road Safety Project</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/COMPLETED PROJECTS/COLOR CODE/2.jpeg" alt="Color Code Project">
+                                <div class="gallery-overlay">
+                                    <h4>Color Code</h4>
+                                    <p>Road Marking Project</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery-grid" id="ongoing-gallery">
+                            <div class="gallery-item">
+                                <img src="images/ON GOING PROJECTS/PD Shop Vellamdai/WhatsApp Image 2024-11-25 at 14.00.59_61c2bf7d.jpg" alt="PD Shop Vellamdai Project">
+                                <div class="gallery-overlay">
+                                    <h4>PD Shop Vellamdai</h4>
+                                    <p>Ongoing Project</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ON GOING PROJECTS/PD Shop Vellamdai/WhatsApp Image 2024-11-07 at 06.26.08_e4a0764f.jpg" alt="PD Shop Vellamdai Project">
+                                <div class="gallery-overlay">
+                                    <h4>PD Shop Vellamdai</h4>
+                                    <p>Construction Progress</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ON GOING PROJECTS/PD Shop Vellamdai/WhatsApp Image 2024-11-07 at 06.26.07_75884027.jpg" alt="PD Shop Vellamdai Project">
+                                <div class="gallery-overlay">
+                                    <h4>PD Shop Vellamdai</h4>
+                                    <p>Work in Progress</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ON GOING PROJECTS/PD Shop Vellamdai/WhatsApp Image 2024-10-30 at 12.59.18_987c3224.jpg" alt="PD Shop Vellamdai Project">
+                                <div class="gallery-overlay">
+                                    <h4>PD Shop Vellamdai</h4>
+                                    <p>Development Stage</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ON GOING PROJECTS/PD Shop Vellamdai/WhatsApp Image 2024-11-12 at 09.00.20_05bd2c36.jpg" alt="PD Shop Vellamdai Project">
+                                <div class="gallery-overlay">
+                                    <h4>PD Shop Vellamdai</h4>
+                                    <p>Current Status</p>
+                                </div>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ON GOING PROJECTS/PD Shop Vellamdai/WhatsApp Image 2025-04-05 at 13.29.43_ae4f1139.jpg" alt="PD Shop Vellamdai Project">
+                                <div class="gallery-overlay">
+                                    <h4>PD Shop Vellamdai</h4>
+                                    <p>Latest Update</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+
+            <!-- Site Inspection Section -->
+            <section class="site-inspection">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Site Inspections</h2>
+                        <h3>Quality Assurance & Government Recognition</h3>
+                    </div>
+                    <div class="inspection-grid">
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/OUR SITE INSPECTED BY DISTRICT COLLECTOR1.jpg" alt="Site Inspection by District Collector">
+                            <div class="inspection-caption">
+                                <h4>District Collector Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/Inspec1.jpeg" alt="Site Inspection by District Collector">
+                            <div class="inspection-caption">
+                                <h4>District Collector Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/Inspec2.jpeg" alt="Site Inspection by District Collector">
+                            <div class="inspection-caption">
+                                <h4>District Collector Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/OUR SITE INSPECTED BY DISTRICT COLLECTOR4.jpg" alt="Site Inspection by District Collector">
+                            <div class="inspection-caption">
+                                <h4>District Collector Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/OUR SITE INSPECTED BY STATE QUALITY MONITOR5.jpg" alt="Site Inspection by District Collector">
+                            <div class="inspection-caption">
+                                <h4>District Collector Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/1.jpeg" alt="Site Inspection by District Collector">
+                            <div class="inspection-caption">
+                                <h4>District Collector Inspection</h4>
+                            </div>
+                        </div>
+                       
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/OUR SITE INSPECTED BY STATE QUALITY MONITOR2.jpg" alt="Site Inspection by State Quality Monitor">
+                            <div class="inspection-caption">
+                                <h4>State Quality Monitor Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/OUR SITE INSPECTED BY STATE QUALITY MONITOR3.jpg" alt="Site Inspection by State Quality Monitor">
+                            <div class="inspection-caption">
+                                <h4>State Quality Monitor Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/OUR SITE INSPECTED BY STATE QUALITY MONITOR4.jpg" alt="Site Inspection by State Quality Monitor">
+                            <div class="inspection-caption">
+                                <h4>State Quality Monitor Inspection</h4>
+                            </div>
+                        </div>
+                        <div class="inspection-item">
+                            <img src="images/Site Inspection_/3.jpeg" alt="Site Inspection by State Quality Monitor">
+                            <div class="inspection-caption">
+                                <h4>State Quality Monitor Inspection</h4>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta">
+                <div class="container">
+                    <h2>We're Solutions for all construction</h2>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="page" id="page-contact">
+            <!-- Contact Section -->
+            <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <h3>Your Dream Project Awaits – Call Us for Expert Construction!</h3>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4><i class="fas fa-envelope"></i> For Construction Support</h4>
+                        <a href="mailto:sathgurubabajitraders@gmail.com"><i class="fas fa-envelope"></i>sathgurubabajitraders@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4><i class="fas fa-phone"></i> 24/7 Customer Care</h4>
+                        <a href="tel:+919080402204"><i class="fas fa-phone"></i> +91 90804 02204</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> SF.No:733/5A & SF.No:733/5D,<br>Kurumbanoor, Mettupalayam – 641305</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+                        <button type="submit" class="btn btn-primary"id="fnSendemessage">Send Message</button>
+                    </form>
+                </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4><i class="fas fa-map-marker-alt"></i> Address</h4>
+                    <p>SF.No:733/5A & SF.No:733/5D,<br>Kurumbanoor, Mettupalayam – 641305</p>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fas fa-phone"></i> Phone</h4>
+                    <p><a href="tel:+919080402204">+91 90804 02204</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4><i class="fas fa-envelope"></i> Email</h4>
+                    <p><a href="mailto:sathgurubabajitraders@gmail.com">sathgurubabajitraders@gmail.com</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2025. Sathguru Babaji Traders.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</body>
+</html>
+
+
